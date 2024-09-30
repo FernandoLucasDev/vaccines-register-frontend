@@ -178,6 +178,7 @@ const EmployeeRegister = ({ onSave, onCancel, isLoading }) => {
                             placeholder="Enter batch number" 
                             value={employeeData.batch}
                             required={employeeData.vaccine_id != 1}
+                            disabled={employeeData.vaccine_id == 1}
                             onChange={handleChange} 
                         />
                     </Form.Group>
