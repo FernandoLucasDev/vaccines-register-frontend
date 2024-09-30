@@ -193,6 +193,7 @@ const EmployeeRegister = ({ onSave, onCancel, isLoading }) => {
                             name="first_dose_vaccine" 
                             value={employeeData.first_dose_vaccine}
                             required={employeeData.vaccine_id != 1}
+                            disabled={employeeData.vaccine_id == 1}
                             onChange={handleChange} 
                         />
                     </Form.Group>
@@ -204,6 +205,7 @@ const EmployeeRegister = ({ onSave, onCancel, isLoading }) => {
                             type="date" 
                             name="second_dose_vaccine" 
                             value={employeeData.second_dose_vaccine}
+                            disabled={employeeData.vaccine_id == 1}
                             onChange={handleChange}
                         />
                     </Form.Group>
@@ -218,6 +220,7 @@ const EmployeeRegister = ({ onSave, onCancel, isLoading }) => {
                             type="date" 
                             name="third_dose_vaccine" 
                             value={employeeData.third_dose_vaccine}
+                            disabled={employeeData.vaccine_id == 1}
                             onChange={handleChange}
                         />
                     </Form.Group>
@@ -230,6 +233,7 @@ const EmployeeRegister = ({ onSave, onCancel, isLoading }) => {
                             name="validate_date" 
                             value={employeeData.validate_date}
                             onChange={handleChange}
+                            disabled={employeeData.vaccine_id == 1}
                             required={employeeData.vaccine_id != 1}
                         />
                     </Form.Group>
