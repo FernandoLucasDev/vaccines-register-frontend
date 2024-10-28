@@ -30,7 +30,7 @@ const Login = () => {
     <div className="background-div">
       <div className="left">
         <div className="content">
-          <p className="text-start fs-2 fw-bold link">Feegow Tech Test</p>
+          <p className="text-start fs-2 fw-bold link">Vaccines register</p>
           <p className="text-start fs-5 fw-semibold text-secondary">
             Register and report for vaccinated employees
           </p>
