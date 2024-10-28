@@ -7,7 +7,7 @@ const Menu = ({ changeScreen, report, logout, isLoading }) => {
 
     return (
         <Navbar bg="light" expand="lg" className="px-5">
-            <Navbar.Brand className="fw-bold">Feegow Tech Test</Navbar.Brand>
+            <Navbar.Brand className="fw-bold">Vaccines Register</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
